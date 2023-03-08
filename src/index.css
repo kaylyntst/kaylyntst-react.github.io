@@ -1,0 +1,170 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p.header{
+  color: rgb(78, 78, 78);
+  padding-bottom: 10px;
+  
+}
+
+div.header{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+p.menu{
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  font-size: 1.7em;
+  padding: 0px 5px 0px 5px;
+}
+
+h1{
+  display:  flex;
+  justify-content: center;
+  color: rgb(57, 57, 57);
+}
+
+h2{
+  margin-top: 5px;
+}
+
+p.plus{
+  justify-content: flex-end;
+  font-size: 1.7em;
+  padding: 5px 10px 5px 10px;
+}
+div.notes{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  padding-bottom: 7px;
+  padding-left: 20px;
+}
+
+div.aside{
+  float: left;
+  min-width: 240px;
+  border-right: 1px solid rgb(221, 221, 221);
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  background-color: white;
+}
+
+div.sideNote{
+  height: 50px;
+  padding: 10px;
+  
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+div.sideNote.active{
+  background-color: rgb(71, 57, 84);
+  color: white;
+}
+
+div.title{
+  padding-top: 10px;
+  display:flex;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  justify-content: space-between;
+  
+}
+
+button.save{
+  border: none;
+  padding: 10px;
+  background-color: white;
+  font-size: 15px;
+
+}
+
+button.delete{
+  border: none;
+  padding: 10px;
+  background-color: white;
+  font-size: 15px;
+}
+
+p.date{
+  padding-bottom: 10px;
+}
+
+div.bar{
+  border-bottom: 1.5px solid rgb(210, 210, 210);
+  padding: 5px;
+}
+
+textarea{
+  border: none;
+  outline: none;
+  resize: none;
+  background-color: white;
+  
+}
+textarea.title{
+  font-size: 14px;;
+}
+
+textarea.textBody{
+  height: 100vh;
+  width: 300px;
+  box-sizing: border-box; 
+}
+
+p.emptyPage{
+  color: rgb(120, 120, 120);
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  padding: 100px 100px 0px 200px;
+}
+
+p.noNoteYet{
+  color: rgb(120, 120, 120);
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+textarea.title{
+  font-size: 1.4em;
+}
+
+.Main {
+  width: 100%;
+}
+
+.quill {
+  height: 100%;
+}
+
+.quill-editor {
+  height: 100%;
+}
+
+input{
+  border: none;
+}
+
+small.date{
+  color: gray;
+  font-size: 0.7em;
+}
